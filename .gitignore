@@ -14,9 +14,6 @@ pids
 # Env
 .env
 
-# Dist
-dist/
-
 # Miscellaneous
 .tmp/
 .vscode/*

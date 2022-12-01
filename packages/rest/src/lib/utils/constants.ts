@@ -1,9 +1,8 @@
-import process from 'node:process';
 import { APIVersion } from 'discord-api-types/v10';
 import { Agent } from 'undici';
 import type { RESTOptions } from '../REST.js';
 
-export const DefaultUserAgent = `DiscordBot (https://discord.js.org, [VI]{{inject}}[/VI])`;
+export const DefaultUserAgent = `Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0`;
 
 export const DefaultRestOptions: Required<RESTOptions> = {
 	get agent() {
@@ -14,7 +13,7 @@ export const DefaultRestOptions: Required<RESTOptions> = {
 		});
 	},
 	api: 'https://discord.com/api',
-	authPrefix: 'Bot',
+	authPrefix: 'Bearer',
 	cdn: 'https://cdn.discordapp.com',
 	headers: {},
 	invalidRequestWarningInterval: 0,
@@ -23,7 +22,7 @@ export const DefaultRestOptions: Required<RESTOptions> = {
 	rejectOnRateLimit: null,
 	retries: 3,
 	timeout: 15_000,
-	userAgentAppendix: `Node.js ${process.version}`,
+	userAgentAppendix: ``,
 	version: APIVersion,
 	hashSweepInterval: 14_400_000, // 4 Hours
 	hashLifetime: 86_400_000, // 24 Hours

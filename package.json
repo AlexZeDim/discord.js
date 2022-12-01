@@ -27,7 +27,8 @@
 		"Amish Shah <amishshah.2k@gmail.com>",
 		"Vlad Frangu <kingdgrizzle@gmail.com>",
 		"SpaceEEC <spaceeec@yahoo.com>",
-		"Aura Román <kyradiscord@gmail.com>"
+		"Aura Román <kyradiscord@gmail.com>",
+		"AlexZeDim <alexzedim@gmail.com>"
 	],
 	"keywords": [
 		"discord",
@@ -35,11 +36,12 @@
 		"bot",
 		"client",
 		"node",
-		"discordapp"
+		"discordapp",
+		"user"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/discordjs/discord.js.git"
+		"url": "https://github.com/AlexZeDim/discord.js.git"
 	},
 	"bugs": {
 		"url": "https://github.com/discordjs/discord.js/issues"

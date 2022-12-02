@@ -6,7 +6,7 @@ import {
 	type RequestMethod,
 	type REST,
 	type RouteLike,
-} from '@discordjs/rest';
+} from 'djs.ut-rest';
 import {
 	populateAbortErrorResponse,
 	populateGeneralErrorResponse,

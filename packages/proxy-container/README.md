@@ -38,10 +38,10 @@ const client = new Client({
 });
 ```
 
-Or with just `@discordjs/rest`:
+Or with just `djs.ut-rest`:
 
 ```ts
-import { REST } from '@discordjs/rest';
+import { REST } from 'djs.ut-rest';
 
 const rest = new REST({
 	api: 'http://localhost:8080/api',

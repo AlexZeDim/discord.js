@@ -34,7 +34,7 @@ pnpm add @discordjs/ws
 
 ```ts
 import { WebSocketManager } from '@discordjs/ws';
-import { REST } from '@discordjs/rest';
+import { REST } from 'djs.ut-rest';
 
 const rest = new REST().setToken(process.env.DISCORD_TOKEN);
 // This example will spawn Discord's recommended shard count, all under the current process.

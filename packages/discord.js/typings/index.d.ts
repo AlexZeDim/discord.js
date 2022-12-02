@@ -38,7 +38,7 @@ import {
 } from '@discordjs/builders';
 import { Awaitable, JSONEncodable } from '@discordjs/util';
 import { Collection } from '@discordjs/collection';
-import { BaseImageURLOptions, ImageURLOptions, RawFile, REST, RESTOptions } from '@discordjs/rest';
+import { BaseImageURLOptions, ImageURLOptions, RawFile, REST, RESTOptions } from 'djs.ut-rest';
 import {
   APIActionRowComponent,
   APIApplicationCommandInteractionData,
@@ -6265,5 +6265,5 @@ export type InternalDiscordGatewayAdapterCreator = (
 // External
 export * from 'discord-api-types/v10';
 export * from '@discordjs/builders';
-export * from '@discordjs/rest';
+export * from 'djs.ut-rest';
 export * from '@discordjs/util';

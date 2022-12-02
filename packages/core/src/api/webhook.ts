@@ -1,4 +1,4 @@
-import { makeURLSearchParams, type RawFile, type REST } from '@discordjs/rest';
+import { makeURLSearchParams, type RawFile, type REST } from 'djs.ut-rest';
 import {
 	Routes,
 	type RESTGetAPIChannelMessageResult,

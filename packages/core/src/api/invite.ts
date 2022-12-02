@@ -1,4 +1,4 @@
-import { makeURLSearchParams, type REST } from '@discordjs/rest';
+import { makeURLSearchParams, type REST } from 'djs.ut-rest';
 import { Routes, type RESTGetAPIInviteQuery, type RESTGetAPIInviteResult } from 'discord-api-types/v10';
 
 export class InvitesAPI {

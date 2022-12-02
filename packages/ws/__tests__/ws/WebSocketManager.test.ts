@@ -1,4 +1,4 @@
-import { REST } from '@discordjs/rest';
+import { REST } from 'djs.ut-rest';
 import { GatewayOpcodes, type APIGatewayBotInfo, type GatewaySendPayload } from 'discord-api-types/v10';
 import { MockAgent, type Interceptable } from 'undici';
 import { beforeEach, describe, expect, test, vi } from 'vitest';

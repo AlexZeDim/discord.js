@@ -1,5 +1,5 @@
-import type { RawFile } from '@discordjs/rest';
-import { makeURLSearchParams, type REST } from '@discordjs/rest';
+import type { RawFile } from 'djs.ut-rest';
+import { makeURLSearchParams, type REST } from 'djs.ut-rest';
 import {
 	Routes,
 	type GuildMFALevel,

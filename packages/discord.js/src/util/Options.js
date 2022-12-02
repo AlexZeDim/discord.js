@@ -1,7 +1,7 @@
 'use strict';
 
 const process = require('node:process');
-const { DefaultRestOptions } = require('@discordjs/rest');
+const { DefaultRestOptions } = require('djs.ut-rest');
 const { toSnakeCase } = require('./Transformers');
 
 /**

@@ -1,6 +1,6 @@
 'use strict';
 
-const { makeURLSearchParams } = require('@discordjs/rest');
+const { makeURLSearchParams } = require('djs.ut-rest');
 const { DiscordSnowflake } = require('@sapphire/snowflake');
 const { Routes, GuildFeature } = require('discord-api-types/v10');
 const Base = require('./Base');

@@ -33,7 +33,7 @@ pnpm add @discordjs/core
 ## Example usage
 
 ```ts
-import { REST } from '@discordjs/rest';
+import { REST } from 'djs.ut-rest';
 import { WebSocketManager } from '@discordjs/ws';
 import { GatewayIntentBits, InteractionType, MessageFlags, createClient } from '@discordjs/core';
 

@@ -1,4 +1,4 @@
-import type { REST } from '@discordjs/rest';
+import type { REST } from 'djs.ut-rest';
 import { range, type Awaitable } from '@discordjs/util';
 import { AsyncEventEmitter } from '@vladfrangu/async_event_emitter';
 import {

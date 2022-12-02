@@ -21,9 +21,9 @@
 **Node.js 16.9.0 or newer is required.**
 
 ```sh-session
-npm install @discordjs/rest
-yarn add @discordjs/rest
-pnpm add @discordjs/rest
+npm install djs.ut-rest
+yarn add djs.ut-rest
+pnpm add djs.ut-rest
 ```
 
 ## Examples
@@ -31,15 +31,15 @@ pnpm add @discordjs/rest
 Install all required dependencies:
 
 ```sh-session
-npm install @discordjs/rest discord-api-types
-yarn add @discordjs/rest discord-api-types
-pnpm add @discordjs/rest discord-api-types
+npm install djs.ut-rest discord-api-types
+yarn add djs.ut-rest discord-api-types
+pnpm add djs.ut-rest discord-api-types
 ```
 
 Send a basic message:
 
 ```js
-import { REST } from '@discordjs/rest';
+import { REST } from 'djs.ut-rest';
 import { Routes } from 'discord-api-types/v10';
 
 const rest = new REST({ version: '10' }).setToken(TOKEN);
@@ -58,7 +58,7 @@ try {
 Create a thread from an existing message to be archived after 60 minutes of inactivity:
 
 ```js
-import { REST } from '@discordjs/rest';
+import { REST } from 'djs.ut-rest';
 import { Routes } from 'discord-api-types/v10';
 
 const rest = new REST({ version: '10' }).setToken(TOKEN);

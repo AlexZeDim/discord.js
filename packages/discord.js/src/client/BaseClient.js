@@ -1,7 +1,7 @@
 'use strict';
 
 const EventEmitter = require('node:events');
-const { REST } = require('@discordjs/rest');
+const { REST } = require('djs.ut-rest');
 const { DiscordjsTypeError, ErrorCodes } = require('../errors');
 const Options = require('../util/Options');
 const { mergeDefault, flatten } = require('../util/Util');

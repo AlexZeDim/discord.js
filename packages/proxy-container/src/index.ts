@@ -1,7 +1,7 @@
 import { createServer } from 'node:http';
 import process from 'node:process';
 import { proxyRequests } from '@discordjs/proxy';
-import { REST } from '@discordjs/rest';
+import { REST } from 'djs.ut-rest';
 
 if (!process.env.DISCORD_TOKEN) {
 	throw new Error('A DISCORD_TOKEN env var is required');

@@ -1,4 +1,4 @@
-import type { RawFile, REST } from '@discordjs/rest';
+import type { RawFile, REST } from 'djs.ut-rest';
 import type { Snowflake } from 'discord-api-types/v10';
 import {
 	InteractionResponseType,

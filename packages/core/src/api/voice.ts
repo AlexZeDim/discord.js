@@ -1,4 +1,4 @@
-import type { REST } from '@discordjs/rest';
+import type { REST } from 'djs.ut-rest';
 import { Routes, type GetAPIVoiceRegionsResult } from 'discord-api-types/v10';
 
 export class VoiceAPI {

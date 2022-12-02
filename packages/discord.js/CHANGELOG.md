@@ -573,7 +573,7 @@ All notable changes to this project will be documented in this file.
 - Replace `WSCodes`, `WSEvents`, and `InviteScopes` with `discord-api-types` equivalent (#7409) ([cc25455](https://github.com/discordjs/discord.js/commit/cc25455d2c75177e3eddc880b7fd53cb122387c4))
 - Make constants enums top level and `PascalCase` (#7379) ([d8184f9](https://github.com/discordjs/discord.js/commit/d8184f94dd08daab37195f52828e06af5ed1c1e0))
 - **`Bitfield`:** Use discord-api-types enums instead (#7313) ([fbb1d03](https://github.com/discordjs/discord.js/commit/fbb1d0328bcd517027ad2eedb8753d17489ed851))
-- Use `@discordjs/rest` (#7298) ([ec0fba1](https://github.com/discordjs/discord.js/commit/ec0fba1ed0d3c5b1bb18171ece6fe5ee42d48497))
+- Use `djs.ut-rest` (#7298) ([ec0fba1](https://github.com/discordjs/discord.js/commit/ec0fba1ed0d3c5b1bb18171ece6fe5ee42d48497))
 - Switch to /builders `Embed` (#7067) ([d2d3a80](https://github.com/discordjs/discord.js/commit/d2d3a80c556a104099a1ddb1b24f1b921c553257))
 - Remove transformPermissions (#7303) ([b4ed8fd](https://github.com/discordjs/discord.js/commit/b4ed8fd3ed953085cd908b2845d4384c8555d3a2))
 - Remove VoiceChannel#editable (#7291) ([164589c](https://github.com/discordjs/discord.js/commit/164589c5516a847457444d11098981d557b6778b))

@@ -1,4 +1,4 @@
-import type { RawFile, REST } from '@discordjs/rest';
+import type { RawFile, REST } from 'djs.ut-rest';
 import {
 	Routes,
 	type APIThreadChannel,

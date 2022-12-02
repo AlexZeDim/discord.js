@@ -3,7 +3,7 @@ import { formatTag } from '../src/index.js';
 
 describe('Format Tag', () => {
 	test('GIVEN tag with a prefix THEN format tag to not contain the prefix', () => {
-		expect(formatTag('@discordjs/rest@0.4.0')).toEqual({ package: 'rest', semver: '0.4.0' });
+		expect(formatTag('djs.ut-rest@0.4.0')).toEqual({ package: 'rest', semver: '0.4.0' });
 		expect(formatTag('@discordjs/collection@0.6.0')).toEqual({ package: 'collection', semver: '0.6.0' });
 		expect(formatTag('@discordjs/proxy@0.1.0')).toEqual({ package: 'proxy', semver: '0.1.0' });
 		expect(formatTag('@discordjs/builders@0.13.0')).toEqual({ package: 'builders', semver: '0.13.0' });

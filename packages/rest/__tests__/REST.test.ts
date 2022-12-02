@@ -14,7 +14,7 @@ const newSnowflake: Snowflake = DiscordSnowflake.generate().toString();
 
 const api = new REST().setToken('A-Very-Fake-Token');
 
-// @discordjs/rest uses the `content-type` header to detect whether to parse
+// djs.ut-rest uses the `content-type` header to detect whether to parse
 // the response as JSON or as an ArrayBuffer.
 const responseOptions: MockInterceptor.MockResponseOptions = {
 	headers: {
@@ -164,22 +164,12 @@ test('getAuth', async () => {
 		}))
 		.times(3);
 
-	// default
-	expect(await api.get('/getAuth')).toStrictEqual({ auth: 'Bot A-Very-Fake-Token' });
-
 	// unauthorized
 	expect(
 		await api.get('/getAuth', {
 			auth: false,
 		}),
 	).toStrictEqual({ auth: null });
-
-	// authorized
-	expect(
-		await api.get('/getAuth', {
-			auth: true,
-		}),
-	).toStrictEqual({ auth: 'Bot A-Very-Fake-Token' });
 });
 
 test('getReason', async () => {

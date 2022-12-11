@@ -1,5 +1,5 @@
 {
-	"name": "@discordjs/discord.js",
+	"name": "@alexzedim/discord.js",
 	"version": "0.0.0",
 	"description": "A powerful library for interacting with the Discord API",
 	"private": true,
@@ -71,5 +71,8 @@
 		"apps/*",
 		"packages/*"
 	],
+	"publishConfig": {
+		"@alexzedim:registry": "https://npm.pkg.github.com"
+	},
 	"packageManager": "yarn@3.2.4"
 }
